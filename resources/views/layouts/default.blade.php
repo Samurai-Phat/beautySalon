@@ -1,33 +1,34 @@
 <!doctype html>
 <html>
+
 <head>
     @include('includes.head')
 </head>
-<body>
-<div class="container">
 
-    <header class="row">
-        @include('includes.header')
-    </header>
+<body class="sidebar-pinned">
+    <aside class="admin-sidebar">
+        @include('includes.sidebar-brand')
+        @include('includes.sidebar')
+    </aside>
+    <main class="admin-main">
 
-    <div id="main" class="row">
+        <header class="admin-header">
+            @include('includes.header')
+        </header>
+        <section class="admin-content">
+            <div class="bg-dark">
+                <div class="container  m-b-30">
+                    @yield('content')
+                </div>
+            </div>
 
-        <!-- sidebar content -->
-        <div id="sidebar" class="col-md-4">
-            @include('includes.sidebar')
-        </div>
+            @include('includes.footer')
 
-        <!-- main content -->
-        <div id="content" class="col-md-8">
-            @yield('content')
-        </div>
+        </section>
 
-    </div>
+    </main>
 
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
+<script src='{{ URL::asset('assets/js/app.js') }}'></script>
 
-</div>
 </body>
 </html>

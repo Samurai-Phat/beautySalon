@@ -10,13 +10,10 @@
 
 $namespace = 'App\Modules\Admin\Controllers';
 
-Route::group(
-    ['module'=>'Admin', 'namespace' => $namespace],
+
+Route::group(['middleware' => ['web', 'auth'], 'module'=>'Admin', 'namespace' => $namespace],
+
     function() {
-        Route::get('admin', [
-            # middle here
-            'as' => 'index',
-            'uses' => 'AdminController@index'
-        ]);
+        Route::get('admin', ['as' => 'index', 'uses' => 'AdminController@index']);
     }
 );

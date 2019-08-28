@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac0ba63-dc1f-48a0-a325-cd71052a734d" name="Default Changelist" comment="" />
+    <list default="true" id="5ac0ba63-dc1f-48a0-a325-cd71052a734d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Homestead/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/.ssh.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/Homestead.yaml.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/bin/homestead" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/init.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/init.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/resources/after.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/resources/aliases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/resources/localized/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/resources/localized/aliases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/clear-nginx.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/clear-variables.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/configure-avahi.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-certificate.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-couch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-ecosystem.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-influxdb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-minio-bucket.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-mongo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-mysql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-ngrok.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/create-postgres.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/cron-schedule.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/blackfire.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/cassandra.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/chronograf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/couchdb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/crystal.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/elasticsearch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/gearman.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/golang.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/grafana.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/influxdb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/mariadb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/minio.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/mongodb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/mysql8.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/neo4j.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/ohmyzsh.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/openresty.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/pm2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/python.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/rabbitmq.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/solr.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/timescaledb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/features/webdriver.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/flip-webserver.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/homestead.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/hosts-add.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/hosts-reset.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/install-load-balancer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/install-xhgui.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/apache.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/cakephp3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/crystal.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/elgg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/laravel.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/magento.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/modx.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/pimcore.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/proxy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/silverstripe.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/spa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/statamic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/symfony2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/symfony4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/thinkphp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/wordpress.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/yii.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/scripts/site-types/zf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/src/MakeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/src/Settings/HomesteadSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/src/Settings/JsonSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/src/Settings/YamlSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/src/Traits/GeneratesSlugs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/tests/InitScriptTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/tests/MakeCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/tests/Settings/JsonSettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/tests/Settings/YamlSettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homestead/tests/Traits/GeneratesTestDirectory.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,24 +104,21 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Homestead/Homestead.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -37,12 +126,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Homestead" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/Homestead/Homestead.yaml" />
       </list>
     </option>
   </component>
@@ -143,18 +233,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="beautySalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beautySalon" type="462c0819:PsiDirectoryNode" />
+              <item name="datlichhen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datlichhen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datlichhen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datlichhen" type="462c0819:PsiDirectoryNode" />
+              <item name="Homestead" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datlichhen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datlichhen" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,12 +298,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753000" />
+    <option name="totallyTimeSpent" value="827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1395" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2535107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +316,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41528663" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -227,21 +327,44 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
             <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homestead/Homestead.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
